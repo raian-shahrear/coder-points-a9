@@ -15,12 +15,12 @@ const Contact = () => {
             <h3 className='text-xl font-semibold mb-6'>Send your request!</h3>
             <form>
               <div className='w-full'>
-                <input className='border border-slate-500 px-3 py-2 mr-4 w-full lg:w-auto mb-4 lg:mb-0' type="text" name='fName' placeholder='Full Name' />
-                <input className='border border-slate-500 px-3 py-2 w-full lg:w-auto mb-4 lg:mb-0' type="tel" name='telephone' placeholder='Telephone Number' />
+                <input className='border border-slate-500 px-3 py-2 mr-4 w-full xl:w-auto mb-4 xl:mb-0' type="text" name='fName' placeholder='Full Name' />
+                <input className='border border-slate-500 px-3 py-2 w-full xl:w-auto mb-4 xl:mb-0' type="tel" name='telephone' placeholder='Telephone Number' />
               </div>
               <div className='my-4'>
-                <input className='border border-slate-500 px-3 py-2 mr-4 w-full lg:w-auto mb-4 lg:mb-0' type="email" name='email' placeholder='Valid Email' />
-                <input className='border border-slate-500 px-3 py-2 w-full lg:w-auto mb-4 lg:mb-0' type="text" name='subject' placeholder='Subject' />
+                <input className='border border-slate-500 px-3 py-2 mr-4 w-full xl:w-auto mb-4 xl:mb-0' type="email" name='email' placeholder='Valid Email' />
+                <input className='border border-slate-500 px-3 py-2 w-full xl:w-auto mb-4 xl:mb-0' type="text" name='subject' placeholder='Subject' />
               </div>
               <textarea className='border border-slate-500 px-3 py-2 w-full block mb-6' name="message" rows="10" placeholder='Message' />
               <button type='submit' className="btn bg-amber-500 hover:text-amber-500 hover:bg-transparent text-white text-lg custom-btn block px-10 w-full lg:w-auto rounded-none">
@@ -31,7 +31,7 @@ const Contact = () => {
             <h3 className='text-xl font-semibold mb-6'>Send your request!</h3>
             <div className='grid grid-cols-2 items-center'>
               <p className='font-semibold'>Email</p>
-              <p>contact@coderpoints.com</p>
+              <p>contact@coder.com</p>
             </div>
             <div className='grid grid-cols-2 items-center my-6'>
               <p className='font-semibold'>Phone</p>
