@@ -1,7 +1,7 @@
 # Coder Points
 
 ## Live Website Link
-Open [https://boost-health-today.netlify.app](https://boost-health-today.netlify.app) to view Live Site of this project.
+Open [https://coder-points.netlify.app](https://coder-points.netlify.app) to view Live Site of this project.
 
 ### Some Features Of this site
 `1.` React Route has been used for routing page.
