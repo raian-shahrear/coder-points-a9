@@ -14,22 +14,21 @@ const Blog = () => {
         <p className='text-base'>React Router, and dynamic, client-side routing, allows us to build a single-page web application with navigation without the page refreshing as the user navigates. React Router uses component structure to call components, which display the appropriate information.</p>
         <p className='text-base mt-2'>There are some steps to enable clint side routing:</p>
         <ol className='list-decimal pl-5'>
-          <li>Install router: <code>npm i react-router-dom</code></li>
-          <li>Create link by using <code>Link</code> component.</li>
-          <li>Create some required Components.</li>
-          <li>Create a <b>router</b> in 'App.js' or 'index.js' file to establish a connection between the <b>Link</b> and <b>Components</b> by using <code>createBrowserRouter([])</code> and pass the <b>router</b> as a props to the <code>RouterProvider</code> component.</li>
+          <li>To install router: <code>npm i react-router-dom</code></li>
+          <li>To create link by using <code>Link</code> component.</li>
+          <li>To create some required Components.</li>
+          <li>To create a <b>router</b> in 'App.js' or 'index.js' file to establish a connection between the <b>Link</b> and <b>Components</b> by using <code>createBrowserRouter([])</code> and pass the <b>router</b> as a props to the <code>RouterProvider</code> component.</li>
         </ol>
       </div>
 
       <div className='mb-8'>
         <h3 className='text-xl font-semibold mb-3'>Q2. How does Context API work?</h3>
-        <p className='text-base mb-1'>useEffect actually controls the side effect in ReactJS with or without dependency. One of the most common use of useEffect is data loading from fetch, but also there are some important uses of useEffect which are:</p>
+        <p className='text-base'>Context provides a way to share values between many components without having to explicitly pass a prop through every level of the tree. To avoid prop drilling, <b>Context API</b> is a simpler solution.</p>
+        <p className='text-base mt-2'>There are some steps to use Context API</p>
         <ol className='list-decimal pl-5'>
-          <li>To validating input field.</li>
-          <li>To live filtering.</li>
-          <li>To trigger animation on new array value.</li>
-          <li>To get data from database with dependency.</li>
-          <li>To update list on fetched API data update.</li>
+          <li>To Declare a context in the parent component: <code>const MyContext = React.createContext(defaultValue);</code></li>
+          <li>To set <b>provider</b> with value/s in the parent component: <code>MyContext.Provider value= 'some value'</code></li>
+          <li>To receive value/s by using <b>useContext</b> and applies this hook in child component/s: <code>const value = useContext(MyContext);</code></li>
         </ol>
       </div>
 
