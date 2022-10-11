@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './QuizQuestions.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
+import { toast } from 'react-toastify';
 
 const QuizQuestions = ({questions, idx}) => {
   const [quizOption, setQuizOption] = useState('');
@@ -9,13 +10,13 @@ const QuizQuestions = ({questions, idx}) => {
   
   const handleQuiz = (selectedOption) =>{
     if(selectedOption === correctAnswer){
-      alert('Right answer!')
+      toast.success('Right Answer!');
     }else{
-      alert('Wrong answer!')
+      toast.error('Wrong Answer!');
     }
   }
   const rightAnswer = () =>{
-    alert(correctAnswer)
+    toast.info(correctAnswer);
   }
 
   return (
