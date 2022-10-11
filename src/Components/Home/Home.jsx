@@ -22,7 +22,7 @@ const Home = () => {
 
       <section className='w-11/12 mx-auto my-24'>
         <h1 className='text-4xl font-semibold'>Take a quiz to evaluate your knowledge:</h1>
-        <div className='grid grid-cols-4 gap-10 mt-6'>
+        <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-10 mt-6'>
           {
             items.map(item => <QuizItem key={item.id} item={item}></QuizItem>)
           }
