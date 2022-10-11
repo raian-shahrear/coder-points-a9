@@ -16,7 +16,7 @@ const Home = () => {
           <div className='h-full w-full absolute top-0 left-0 custom-overly flex justify-center items-center'>
             <div className='text-center w-8/12 text-white'>
               <h1 className='text-6xl font-semibold'>Learn Coding Fast!</h1>
-              <p className='text-xl mt-12'><span className='text-amber-300'>Coder Points</span> helps to learn code so easily. We offers world best courses along with Bootcamp. Here any level of coder, even beginner can enhance their career by learning code with us</p>
+              <p className='text-xl mt-12'>Coder Points helps you to learn code so easily. We offers world best courses along with Bootcamp. Here any level of coder, even a beginner can enhance their skill by learning code with us</p>
             </div>
           </div>
         </div>

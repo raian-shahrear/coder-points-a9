@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer footer-center p-10 bg-[hsl(240,4%,14%)] text-white relative bottom-0">
       <div>
-        <a href='/home' className='flex items-center'>
+        <a href='/' className='flex items-center'>
           <p className='text-3xl text-amber-500'><FontAwesomeIcon icon={faLaptopCode} /></p>
           <p className="btn btn-ghost normal-case text-2xl">Coder Points</p>
         </a>

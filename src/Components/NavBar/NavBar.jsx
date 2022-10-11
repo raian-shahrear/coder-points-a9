@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <div className='bg-[hsl(240,4%,14%)]'>
       <div className="navbar h-20 w-11/12 mx-auto flex justify-between text-white">
-        <a href='/home'>
+        <a href='/'>
           <p className='text-3xl text-amber-500'><FontAwesomeIcon icon={faLaptopCode} /></p>
           <p className="btn btn-ghost normal-case text-2xl">Coder Points</p>
         </a>
