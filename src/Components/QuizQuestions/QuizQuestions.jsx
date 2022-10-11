@@ -16,14 +16,14 @@ const QuizQuestions = ({questions, idx}) => {
     }
   }
   const rightAnswer = () =>{
-    toast.info(correctAnswer);
+    toast.info(`Answer: ${correctAnswer}`);
   }
 
   return (
     <div className='w-8/12 mx-auto shadow-lg p-10 rounded-xl mb-6 bg-amber-50'>
       <div className='flex justify-between'>
         <h2 className='text-xl w-11/12 font-semibold'>Quiz {idx+1}: {question}</h2>
-        <p onClick={rightAnswer} className='hover:text-yellow-700 hover:cursor-pointer'><FontAwesomeIcon icon={faEye} /></p>
+        <p onClick={rightAnswer} title="Correct Answer" className='hover:text-yellow-700 hover:cursor-pointer'><FontAwesomeIcon icon={faEye} /></p>
       </div>
       <div className='mt-4'>
       <div className='custom-options'>
