@@ -3,9 +3,8 @@
   height: 100vh;
   object-fit: cover;
   object-position: top;
-  z-index: 10;
 }
 .custom-overly{
   background: linear-gradient(180deg, hsla(0, 0%, 0%, 0.3), hsla(0, 0%, 0%, 0.8));
-  z-index: 50;
+  z-index: 10;
 }

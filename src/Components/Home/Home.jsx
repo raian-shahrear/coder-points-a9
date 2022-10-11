@@ -23,7 +23,7 @@ const Home = () => {
       </section>
 
       <section className='w-11/12 mx-auto my-24'>
-        <h1 className='text-4xl font-semibold flex items-center gap-2'>
+        <h1 className='text-4xl font-semibold flex gap-2'>
           <p className='text-amber-500'><FontAwesomeIcon icon={faCircleCheck} /></p>
           <p>Take a quiz to evaluate your knowledge:</p>
         </h1>

@@ -5,7 +5,7 @@ import { faCircleQuestion } from '@fortawesome/free-solid-svg-icons';
 const Blog = () => {
   return (
     <div className='my-24 w-11/12 mx-auto'>
-      <h2 className='text-4xl font-semibold flex items-center gap-2'>
+      <h2 className='text-4xl font-semibold flex gap-2'>
         <p className='text-amber-500'><FontAwesomeIcon icon={faCircleQuestion} /></p>
         <p>Frequently Asked Question</p>
       </h2>

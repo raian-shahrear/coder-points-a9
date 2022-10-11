@@ -6,12 +6,12 @@ const Statistics = () => {
   console.log(items)
 
   return (
-    <section className='w-11/12 mx-auto my-24'>
+    <section className='w-full md:w-11/12 mx-auto my-24'>
       <h1 className='text-center mb-10 text-4xl font-semibold'>The <span className='text-amber-500'>Line Chart</span> is showing the total number of quiz for each tech</h1>
       <div className='flex justify-center'>
         <LineChart 
-          width={800} 
-          height={500} 
+          width={500} 
+          height={350} 
           data={items} 
           margin={{
             top: 5,
