@@ -6,11 +6,15 @@ import Statistics from './Components/Statistics/Statistics';
 import Blog from './Components/Blog/Blog';
 import Contact from './Components/Contact/Contact';
 import ErrorPage from './Components/ErrorPage/ErrorPage';
+import StartQuiz from './Components/StartQuiz/StartQuiz';
 
 function App() {
   const router = createBrowserRouter([
     {
       path: '/',
+      loader: async () => {
+        return fetch('https://openapi.programming-hero.com/api/quiz');
+      },
       element: <Main/>,
       errorElement: <ErrorPage/>,
       children: [
@@ -35,6 +39,13 @@ function App() {
     {
       path: '/contact',
       element: <Contact/>
+    },
+    {
+      path: '/quizitem/:id',
+      loader: async ({params}) => {
+        return fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`)
+      },
+      element: <StartQuiz/>
     }
   ])
   return (

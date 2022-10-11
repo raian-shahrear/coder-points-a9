@@ -1,5 +1,5 @@
 import React from 'react';
-import './NavBar';
+import './NavBar.css';
 import { NavLink, Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
