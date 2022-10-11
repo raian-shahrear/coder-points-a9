@@ -17,7 +17,7 @@ const Blog = () => {
           <li>To install router: <code>npm i react-router-dom</code></li>
           <li>To create link by using <code>Link</code> component.</li>
           <li>To create some required Components.</li>
-          <li>To create a <b>router</b> in 'App.js' or 'index.js' file to establish a connection between the <b>Link</b> and <b>Components</b> by using <code>createBrowserRouter([])</code> and pass the <b>router</b> as a props to the <code>RouterProvider</code> component.</li>
+          <li>To create a <b>router</b> in 'App.js' or 'index.js' file to establish a connection between the <b>Link</b> and <b>Components</b> by using <code>createBrowserRouter([])</code> and pass the router as a <b>prop</b> to the <code>RouterProvider</code> component.</li>
         </ol>
       </div>
 
@@ -26,22 +26,17 @@ const Blog = () => {
         <p className='text-base'>Context provides a way to share values between many components without having to explicitly pass a prop through every level of the tree. To avoid prop drilling, <b>Context API</b> is a simpler solution.</p>
         <p className='text-base mt-2'>There are some steps to use Context API</p>
         <ol className='list-decimal pl-5'>
-          <li>To Declare a context in the parent component: <code>const MyContext = React.createContext(defaultValue);</code></li>
+          <li>To Declare a <b>context</b> in the parent component: <code>const MyContext = React.createContext(defaultValue);</code></li>
           <li>To set <b>provider</b> with value/s in the parent component: <code>MyContext.Provider value= 'some value'</code></li>
           <li>To receive value/s by using <b>useContext</b> and applies this hook in child component/s: <code>const value = useContext(MyContext);</code></li>
         </ol>
       </div>
 
       <div>
-        <h3 className='text-xl font-semibold mb-3'>Q3. Write something about 'useRef'?</h3>
-        <p className='text-base mb-1'>useEffect actually controls the side effect in ReactJS with or without dependency. One of the most common use of useEffect is data loading from fetch, but also there are some important uses of useEffect which are:</p>
-        <ol className='list-decimal pl-5'>
-          <li>To validating input field.</li>
-          <li>To live filtering.</li>
-          <li>To trigger animation on new array value.</li>
-          <li>To get data from database with dependency.</li>
-          <li>To update list on fetched API data update.</li>
-        </ol>
+        <h3 className='text-xl font-semibold mb-3'>Q3. Write something about 'useRef' hook?</h3>
+        <p className='text-base'>The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.</p>
+        <p className='text-base mt-2'>Syntax is: <code>const refContainer = useRef(initialValue);</code></p>
+        <p className='text-base mt-2'>useRef returns a mutable ref object whose <code>.current</code> property is initialized to the passed argument <b>(initialValue)</b>. Essentially, useRef is like a “box” that can hold a mutable value in its <code>.current</code> property.</p>
       </div>
     </div>
   );

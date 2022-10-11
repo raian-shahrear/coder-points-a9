@@ -7,7 +7,7 @@ const Statistics = () => {
 
   return (
     <section className='w-11/12 mx-auto my-24'>
-      <h1 className='text-center mb-6 text-4xl font-semibold'>The <span className='text-amber-500'>Line Chart</span> is showing the total number of quiz for each tech</h1>
+      <h1 className='text-center mb-10 text-4xl font-semibold'>The <span className='text-amber-500'>Line Chart</span> is showing the total number of quiz for each tech</h1>
       <div className='flex justify-center'>
         <LineChart 
           width={800} 
