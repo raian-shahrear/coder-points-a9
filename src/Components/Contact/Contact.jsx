@@ -31,7 +31,7 @@ const Contact = () => {
             <h3 className='text-xl font-semibold mb-6'>Send your request!</h3>
             <div className='grid grid-cols-2 items-center'>
               <p className='font-semibold'>Email</p>
-              <p>contact@coderpoint.com</p>
+              <p>contact@coderpoints.com</p>
             </div>
             <div className='grid grid-cols-2 items-center my-6'>
               <p className='font-semibold'>Phone</p>

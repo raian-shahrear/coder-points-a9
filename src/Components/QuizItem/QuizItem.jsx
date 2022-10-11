@@ -19,7 +19,7 @@ const QuizItem = ({item}) => {
         <div className="card-actions justify-center mt-6">
           <button onClick={() => handleQuiz()} className="btn bg-amber-500 hover:text-amber-500 hover:bg-transparent text-white text-lg custom-btn">
             <p>Start Practice</p>
-            <p><p className='ml-4'><FontAwesomeIcon icon={faArrowRight} /></p></p>
+            <p className='ml-4'><FontAwesomeIcon icon={faArrowRight} /></p>
           </button>
         </div>
       </div>
