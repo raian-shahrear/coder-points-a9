@@ -12,7 +12,7 @@ const QuizItem = ({item}) => {
   }
   return (
     <div className="card card-compact w-full bg-base-100 shadow-xl">
-      <figure className='bg-slate-200'><img src={logo} alt="Shoes" /></figure>
+      <figure className='bg-amber-100'><img src={logo} alt="Shoes" /></figure>
       <div className="card-body">
         <h2 className="card-title">{name}</h2>
         <p><b>Total Quiz: {total}</b> </p>
