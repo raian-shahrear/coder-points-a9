@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './QuizQuestions.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 import { toast } from 'react-toastify';
 
 const QuizQuestions = ({questions, idx}) => {
-  const [quizOption, setQuizOption] = useState('');
   const {id, question, correctAnswer, options} = questions;
   
   const handleQuiz = (selectedOption) =>{
@@ -31,8 +30,8 @@ const QuizQuestions = ({questions, idx}) => {
             options.map(option => {
               return(
                 <div className='eachOption'>
-                  <input onClick={() => handleQuiz(option)} type="radio" name="quiz" />
-                  <label htmlFor="">{option}</label>
+                  <input onClick={() => handleQuiz(option)} type="radio" name={id} />
+                  <label>{option}</label>
                 </div>
               )
             })
